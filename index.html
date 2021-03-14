@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Live Chart</title>
+</head>
+<body>
+	<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-1">
+		<a class="navbar-brand col-2 mr-0" href="#">URL</a>
+		<input class="form-control form-control-dark w-100 col-7" type="text" placeholder="Type url here" aria-label="Search">
+		<button data-testid="update" type="submit" class="btn btn-primary col-2">Update data</button>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="row">
+			<main role="main" class="col-12 pt-3 px-4"><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+				<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+					<h1 class="h2">Chart</h1>
+					<div class="btn-toolbar mb-2 mb-md-0">
+					</div>
+				</div>
+
+				<canvas class="my-4 chartjs-render-monitor" id="myChart" width="1038" height="438" style="display: block; width: 1038px; height: 438px;"></canvas>
+			</main>
+		</div>
+	</div>
+</body>
+</html>
